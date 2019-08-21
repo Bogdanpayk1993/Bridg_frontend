@@ -1,0 +1,112 @@
+.score {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-bottom: 0.5vw;
+    width: 60vw;
+    margin: auto;
+}
+
+.score td {
+    height: 0px;
+}
+
+.score td:nth-child(1) {
+    text-align: right;
+    width: 10vw;
+}
+
+.score td:nth-child(2) {
+    width: 4vw;
+}
+
+.score td:nth-child(3) {
+    text-align: left;
+    width: 10vw;
+}
+
+table {
+    width: 97.1vw;
+}
+
+img {
+    width: 7.5vw;
+    border: 1px solid black;
+    border-radius: 0.9vw;
+}
+
+td {
+    height: 12vw;
+    color: white;
+}
+
+td:first-child {
+    width: 21vw;
+}
+
+td:nth-of-type(2) img {
+    margin-left: -5vw;
+}
+
+td:nth-of-type(3) {
+    width: 15vw;
+}
+
+.usedCard {
+    text-align: left;
+    padding-left: 3vw;
+}
+
+.game {
+    border-radius: 5vw;
+    margin-top: 0.7vh;
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+    position: absolute;
+}
+
+.colod {
+    text-align: left;
+    margin-left: 2vw;
+    float: left;
+}
+
+button {
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    td:nth-of-type(3) {
+        width: 18vw;
+    }
+
+    button {
+        font-size: 2vw;
+        width: 15vw;
+        vertical-align: middle;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .score {
+        font-size: 3vw;
+        margin-bottom: 0.5vw;
+        width: 64%;
+        margin: auto;
+    }
+
+    .score td:nth-child(1) {
+        text-align: right;
+        width: 29vw;
+    }
+    
+    .score td:nth-child(2) {
+        width: 4vw;
+    }
+    
+    .score td:nth-child(3) {
+        text-align: left;
+        width: 30vw;
+    }
+}

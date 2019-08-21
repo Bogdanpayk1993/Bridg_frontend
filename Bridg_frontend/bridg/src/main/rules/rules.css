@@ -1,0 +1,31 @@
+.rules {
+    font-size: 3vh;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 1.2vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 3vw;
+    padding-top: 0.2vw;
+    padding-bottom: 0.2vw;
+    border-radius: 5vw;
+    color: white;
+}
+
+@media screen and (max-widh: 600px) {
+    .rules {
+        font-size: 0.5vh;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-bottom: 1.2vw;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 3vw;
+        padding-top: 0.2vw;
+        padding-bottom: 0.2vw;
+        border-radius: 5vw;
+        color: white;
+    }
+}

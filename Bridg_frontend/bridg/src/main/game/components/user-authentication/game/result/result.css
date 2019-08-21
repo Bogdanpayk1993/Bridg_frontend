@@ -1,0 +1,32 @@
+.result_div {
+    width: 97.8vw;
+    height: 78.2vh;
+    margin-bottom: 0.5vw;
+    margin-left: 0.4vw;
+    margin-right: 0.4vw;
+    border-radius: 5vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+.result_div h1 {
+    margin-top: 21vh;
+}
+.result_div button {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 2vh;
+}
+.result_div div {
+    border-radius: 2vw;
+    width: 35vw;
+    min-width: 300px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}

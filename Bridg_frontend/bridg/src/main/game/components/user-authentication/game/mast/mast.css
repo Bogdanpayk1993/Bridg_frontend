@@ -1,0 +1,30 @@
+.mast {
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    vertical-align: top;
+}
+
+.div_mast img {    
+    width: 8vw;
+    height: 8vw;
+    margin: 2vw;
+}
+.div_mast {
+    width: 97.8vw;
+    height: 78.2vh;
+    margin-bottom: 0.5vw;
+    margin-left: 0.4vw;
+    margin-right: 0.4vw;
+    border-radius: 5vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+.div_mast div {
+    width: 53vw;
+    margin: auto;
+    margin-top: 25.2vh;
+    padding-top: 0.5vw;
+    border-radius: 2vw;
+    background-color: rgba(0, 0, 0, 0.4);
+}

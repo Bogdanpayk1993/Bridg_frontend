@@ -1,0 +1,38 @@
+.statistics {
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 2vw;
+    border-spacing: 0.8vw 0.8vw;
+    padding: 0.5vw;
+}
+
+.statistics td {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2vw;
+    height: 0px;
+    font-weight: bold; 
+
+}
+
+.statistics th {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2vw;
+    color: white;
+}
+
+.statistics td:nth-child(1) {
+    width: 30%;
+}
+
+.statistics td:nth-child(2) {
+    width: 30%;
+}
+
+.statistics td:nth-child(3) {
+    width: 20%;
+}
+
+.statistics td:nth-child(4) {
+    width: 20%;
+}

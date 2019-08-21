@@ -1,0 +1,57 @@
+a {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none; 
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+    margin-left: 0.7vw;
+    margin-right: 0.7vw;
+    margin-top: 0.5vw;
+    border-radius: 1vw;
+}
+
+.h1 {
+    background-color: rgba(0, 0, 0, 0.4);  
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+    margin-left: 0.7vw;
+    margin-right: 0.7vw;
+    border-radius: 1vw;
+}
+
+h1 {
+    color: white;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+    margin-left: 0.7vw;
+    margin-right: 0.7vw;
+    border-radius: 1vw;
+    margin-top: 0.5vw;
+    min-height: 84.9vh;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-top: 0.1vw;
+        padding-bottom: 0.1vw;
+        margin-left: 0.7vw;
+        margin-right: 0.7vw;
+        border-radius: 1vw;
+        margin-top: 0.5vw;
+        min-height: 88.5vh;
+    }
+}

@@ -1,0 +1,37 @@
+.authentication {
+    margin-top: 35vh;
+}
+
+.authentication span {
+    font-weight: bold;
+    color: white;
+}
+
+.authentication input {
+    margin-left: 0.5vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+}
+
+.authentication button {
+    margin-left: 1vw;
+    margin-top: -0.3vh;
+}
+
+@media screen and (max-width: 600px) {
+    .authentication span{
+        font-size: 3vw;
+    }
+
+    .authentication input{
+        font-size: 3vw;
+        margin-left: 2.5vw;
+    }
+
+    .authentication button{
+        font-size: 3vw;
+        width: 20vw;
+        margin-left: 4vw;
+    }
+}
